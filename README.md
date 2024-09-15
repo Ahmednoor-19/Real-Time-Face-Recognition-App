@@ -58,16 +58,34 @@ streamlit run streamlit_app.py
 
 The application will open in your default web browser, and you can interact with it to capture images, recognize faces, and manage face encodings.
 
-Usage
-Capture Image: Click the button to open the webcam and capture an image of a face.
-Add New Face: Enter a name and click the button to add the captured face encoding to the MongoDB database.
-Recognize Face: The application will automatically recognize faces in real-time and display the name of the recognized individual if present in the database.
-Future Enhancements
-Enhanced Recognition Accuracy: Improve face recognition accuracy by incorporating more advanced algorithms or training on additional datasets.
-User Management: Add features for managing users and updating face encodings.
-Cross-Platform Support: Enhance compatibility with different operating systems and hardware.
-License
-This project is licensed under the MIT License. See the LICENSE file for more information.
+## Usage
+
+1. **Capture Image**: 
+   - Click the button to open the webcam.
+   - Capture an image of a face using the webcam interface.
+
+2. **Add New Face**: 
+   - Enter a name for the individual.
+   - Click the button to add the captured face encoding to the MongoDB database.
+
+3. **Recognize Face**: 
+   - The application will automatically detect and recognize faces in real-time.
+   - It will display the name of the recognized individual if their face is found in the database.
+
+## Future Enhancements
+
+- **Enhanced Recognition Accuracy**: 
+  - Improve the accuracy of face recognition by incorporating advanced algorithms or training on additional datasets.
+
+- **User Management**: 
+  - Implement features for managing users, including updating and deleting face encodings.
+
+- **Cross-Platform Support**: 
+  - Enhance compatibility to support different operating systems and hardware configurations.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). See the LICENSE file for more information.
 
 Contact
 For any questions or suggestions, please feel free to reach out to:
